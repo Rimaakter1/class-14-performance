@@ -1,0 +1,67 @@
+* {
+    background-color: rgb(231, 236, 202);
+}
+
+#divison1 {
+    height: 100px;
+    width: 1600px;
+    border: 3px dashed blueviolet;
+    margin-left: 30px;
+    text-align: center;
+}
+
+p {
+    background-color: aquamarine;
+    padding: 10px;
+    border: 5px dotted burlywood;
+}
+
+#divison2 {
+
+
+    background: url(image/bg-1.png), url(image/bg-2.png), url(image/bg-3.png);
+    padding: 30px;
+    background-clip: padding-box;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: left, right, center;
+    margin-bottom: 40px;
+}
+
+#divison3 {
+    height: 100px;
+    width: 1600px;
+    border: 10px solid blue;
+    padding: 50px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: 5px dotted green;
+    outline-offset: 5px;
+}
+
+.parent {
+    border: 5px solid rgb(0, 0, 0);
+    padding: 90px 50px;
+    margin: 10px 200px;
+    background: rgb(63, 99, 95);
+    text-align: center;
+
+}
+
+#child {
+    background-color: cornflowerblue;
+    color: crimson;
+    border: 5px solid rgb(24, 199, 79);
+    padding: 20px;
+    margin: auto;
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+
+#top {
+    vertical-align: top;
+}
+
+#sup {
+    vertical-align: sub;
+}
